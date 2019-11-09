@@ -1,4 +1,4 @@
-//require('/database');
+require('/database');
 const app = require('./app');
 
 async function init() {
