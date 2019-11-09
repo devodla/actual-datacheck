@@ -25,3 +25,5 @@ const findAll = async (req, res) => {
     const data = await Controller.findAll().catch(error => error)
     return respondAsJSON(data)
 }*/
+
+module.exports = app;
